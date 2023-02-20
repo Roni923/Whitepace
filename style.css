@@ -21,13 +21,22 @@ body{
     font-size: 18px;
     background-color: #C4DEFD;
     color: #FFFFFF;
+    line-height: 1.7;
 }
 .theem-batton{
     display: inline-block;
     background: #4F9CF9;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
+    
+    text-decoration: none;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.theem-batton:hover{
+
+color: #ffffff;
 }
 .theem-batton-two{
     display: inline-block;
@@ -35,7 +44,7 @@ body{
     border-radius: 8px;
     padding: 16px 24px !important;
     color: #043873 !important;
-    margin-left: 24px;
+   
 }
 
 
@@ -53,22 +62,90 @@ body{
 .theem-batton img{
     margin-left: 15px;
 }
+.header-area .navbar-toggler{
+border: none;
+box-shadow: none;
+}
 
-@media (max-width: 991px)
-    {
-        .theem-batton{
-            width: 100%;
-            text-align: center;
-            margin-left: 0;
-            margin-top: 10px;
-        }
-        .theem-batton-two{
-            width: 100%;
-            text-align: center;
-            margin-left: 0;
-            margin-top: 10px;
-        }
+.header-area .theem-batton{
+    margin-left: 24px;
+}
+.header-area .theem-batton-two{
+    margin-left: 24px;
+}
+
+@media (max-width: 991px){
+    .theem-batton{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .theem-batton-two{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .header-area .nav-link{
+        
+        padding: 16px 0 !important;}
+
         .header-area .nav-link{
-            
-            padding: 16px 0 !important;
+            position: relative;
+        }
+        .header-area .nav-link::after {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+
+        }
+
+        .header-area .theem-batton{
+            margin-left: 0;
+        }
+        .header-area .theem-batton-two{
+            margin-left: 0;}
+        
+    
+}
+
+/* hero area css */
+
+.hero-area{
+    padding: 140px 0;
+    background-image: url(img/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h3{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 77px;
+}
+
+
+.hero-area .theem-batton{
+    margin-top: 30px;
+}
+
+@media (max-width: 991px){
+
+    .hero-area{
+        padding: 80px 0;
+    }
+    .hero-text{
+        text-align: center;
+    }
+
+    .hero-text h3{
+        font-size: 36px;
+    }
+
+    .hero-area .theem-batton{
+        margin-bottom: 50px;
+}
+
 }
