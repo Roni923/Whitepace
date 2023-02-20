@@ -22,3 +22,53 @@ body{
     background-color: #C4DEFD;
     color: #FFFFFF;
 }
+.theem-batton{
+    display: inline-block;
+    background: #4F9CF9;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    margin-left: 24px;
+}
+.theem-batton-two{
+    display: inline-block;
+    background: #FFE492;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    color: #043873 !important;
+    margin-left: 24px;
+}
+
+
+/* header area css */
+.header-area{
+    background-color: #043873;
+    padding: 16px 0;
+}
+.header-area .nav-link{
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    padding: 16px 24px !important;
+}
+.theem-batton img{
+    margin-left: 15px;
+}
+
+@media (max-width: 991px)
+    {
+        .theem-batton{
+            width: 100%;
+            text-align: center;
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        .theem-batton-two{
+            width: 100%;
+            text-align: center;
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        .header-area .nav-link{
+            
+            padding: 16px 0 !important;
+}
