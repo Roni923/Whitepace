@@ -74,6 +74,15 @@ box-shadow: none;
     margin-left: 24px;
 }
 
+.dropdown-menu{
+    background-color: #043873;
+}
+
+.dropdown-item{
+   margin-bottom: 2px;
+    background-color: #C4DEFD;
+}
+
 @media (max-width: 991px){
     .theem-batton{
         width: 100%;
