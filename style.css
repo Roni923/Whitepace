@@ -337,8 +337,48 @@ margin-bottom: 60px;
 .work-area .theem-text p{
     color: #ffffff;
 }
+
+@media (max-width: 991px){
+    .work-area{
+        padding: 80px 0 ;
+    }
+}
 /* data area css */
 .data-area{
    padding: 140px 0; 
    background-color: #ffffff;
+}
+
+@media (max-width: 991px){
+    .data-area{
+        padding: 80px 0 ;
+    }
+}
+/* sponsors area css */
+.sponsors-area{
+    padding: 140px 0;
+    background-color: #ffffff;
+}
+
+.sponsors-area .theem-text{
+    margin-bottom: 80px;
+}
+
+.single-sponsors img{
+    height: 55px ;
+    width: auto;
+}
+
+@media (max-width: 991px){
+    .sponsors-area{
+        padding-top: 80px;
+        padding-bottom: 30px;
+
+    }
+
+    .single-sponsors{
+        margin-bottom: 50px;
+    }
+
+   
 }
