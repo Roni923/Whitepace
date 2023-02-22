@@ -337,3 +337,8 @@ margin-bottom: 60px;
 .work-area .theem-text p{
     color: #ffffff;
 }
+/* data area css */
+.data-area{
+   padding: 140px 0; 
+   background-color: #ffffff;
+}
