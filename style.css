@@ -325,3 +325,15 @@ margin-bottom: 60px;
         
      }
 }
+/* work area css */
+.work-area{
+    padding: 140px 0;
+    background-color: #043873;
+}
+
+.work-area .theem-text h3{
+    color: #ffffff;
+}
+.work-area .theem-text p{
+    color: #ffffff;
+}
