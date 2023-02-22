@@ -19,7 +19,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    background-color: #C4DEFD;
+    background-color: #56585b;
     color: #FFFFFF;
     line-height: 1.7;
 }
@@ -46,6 +46,43 @@ color: #ffffff;
     color: #043873 !important;
    
 }
+
+.theem-text h3{
+    font-size: 70px;
+    color: #212529;
+}
+
+.theem-text p{
+    
+    color: #212529;
+}
+.theem-text h3 span{
+    position: relative;
+    z-index: 2;
+}
+.theem-text h3 span::after{
+    position: absolute;
+   content: ""; 
+   width: 100%;
+   height: 65px;
+   left: 0;
+  
+   bottom: 0;
+   z-index: -1;
+   background-image: url(img/elemen.png);
+}
+
+
+@media (max-width: 991px){
+    .theem-text{
+        text-align: center;
+        
+    }
+    .theem-text h3{
+        font-size: 36px ;
+    }
+}
+
 
 
 /* header area css */
@@ -157,4 +194,30 @@ box-shadow: none;
         margin-bottom: 50px;
 }
 
+}
+
+/* start managment area css */
+
+.managment-area{
+    background-color: #ffffff;
+    padding: 140px 0;
+}
+
+.work-managment{
+    margin-top: 100px;
+}
+
+
+@media (max-width: 991px){
+   .theem-batton{
+    margin-bottom: 25px;
+   }
+
+   .managment-area{
+    padding: 80px 0;
+}
+
+.work-managment{
+    margin-top: 60px;
+}
 }
