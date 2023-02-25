@@ -56,6 +56,9 @@ color: #ffffff;
     color: #043873 !important;
     text-decoration: none;
 }
+.theem-batton i{
+    margin-left: 10px;
+}
 
 .theem-text h3{
     font-size: 70px;
@@ -83,15 +86,6 @@ color: #ffffff;
 }
 
 
-@media (max-width: 991px){
-    .theem-text{
-        text-align: center;
-        
-    }
-    .theem-text h3{
-        font-size: 36px ;
-    }
-}
 
 
 
@@ -106,9 +100,7 @@ color: #ffffff;
     font-weight: 500;
     padding: 16px 24px !important;
 }
-.theem-batton img{
-    margin-left: 15px;
-}
+
 .header-area .navbar-toggler{
 border: none;
 box-shadow: none;
@@ -130,42 +122,7 @@ box-shadow: none;
     background-color: #C4DEFD;
 }
 
-@media (max-width: 991px){
-    .theem-batton{
-        width: 100%;
-        text-align: center;
-        margin-left: 0;
-        margin-top: 10px;
-    }
-    .theem-batton-two{
-        width: 100%;
-        text-align: center;
-        margin-left: 0;
-        margin-top: 10px;
-    }
-    .header-area .nav-link{
-        
-        padding: 16px 0 !important;}
 
-        .header-area .nav-link{
-            position: relative;
-        }
-        .header-area .nav-link::after {
-            position: absolute;
-            right: 12px;
-            top: 50%;
-            transform: translateY(-50%);
-
-        }
-
-        .header-area .theem-batton{
-            margin-left: 0;
-        }
-        .header-area .theem-batton-two{
-            margin-left: 0;}
-        
-    
-}
 
 /* hero area css */
 
@@ -187,24 +144,7 @@ box-shadow: none;
     margin-top: 30px;
 }
 
-@media (max-width: 991px){
 
-    .hero-area{
-        padding: 80px 0;
-    }
-    .hero-text{
-        text-align: center;
-    }
-
-    .hero-text h3{
-        font-size: 36px;
-    }
-
-    .hero-area .theem-batton{
-        margin-bottom: 50px;
-}
-
-}
 
 /* start managment area css */
 
@@ -218,19 +158,7 @@ box-shadow: none;
 }
 
 
-@media (max-width: 991px){
-   .theem-batton{
-    margin-bottom: 25px;
-   }
 
-   .managment-area{
-    padding: 80px 0;
-}
-
-.work-managment{
-    margin-top: 60px;
-}
-}
 
 /* extension area css */
 .extension-area{
@@ -247,12 +175,7 @@ box-shadow: none;
     color: #ffffff;
 }
 
-@media (max-width: 991px){
-    .extension-area{
-        padding: 80px 0;
-       
-    }
-}
+
 
 /* start customise area css */
 .customise-area{
@@ -260,12 +183,7 @@ box-shadow: none;
     padding: 140px 0;
 }
 
-@media (max-width: 991px){
-    .customise-area{
-       
-        padding: 80px 0;
-    }
-}
+
 
 /* pricing-area css */
 .pricing-area{
@@ -281,6 +199,11 @@ margin-bottom: 60px;
     border: 1px solid #FFE492;
     border-radius: 10px;
     padding: 40px 44px;
+}
+.single-pricing img{
+    height: 21px !important;
+    width: 21px !important;
+    margin-right: 10px !important;
 }
 
 .single-pricing h4{
@@ -301,6 +224,8 @@ margin-bottom: 60px;
 .single-pricing ul li{
     list-style: none;
     margin-bottom: 28px;
+    display: flex;
+    align-items: center;
 }
 .single-pricing ul li :last-child{
     margin: 0;
@@ -314,17 +239,32 @@ margin-bottom: 60px;
 
 .special-pricing h2{
     color: #FFE492;
+
+
 }
-@media (max-width: 991px){
-    .pricing-area{
-       padding: 80px;
-       
-    }
-    .single-pricing{
-        margin-bottom: 30px ;
-        
-     }
+
+.pricing-area .owl-stage{
+    display: flex;
+    align-items: center;
 }
+.pricing-area .owl-dots{
+    text-align: center;
+}
+.pricing-area .owl-dots button{
+    height: 15px;
+    width: 15px;
+    background-color: #4F9CF9 !important;
+    border-radius: 50%;
+    margin:0 5px ;
+    
+
+
+}
+.pricing-area .owl-dots button.active{
+    background-color: #043873 !important;
+}
+
+
 /* work area css */
 .work-area{
     padding: 140px 0;
@@ -338,22 +278,13 @@ margin-bottom: 60px;
     color: #ffffff;
 }
 
-@media (max-width: 991px){
-    .work-area{
-        padding: 80px 0 ;
-    }
-}
+
 /* data area css */
 .data-area{
    padding: 140px 0; 
    background-color: #ffffff;
 }
 
-@media (max-width: 991px){
-    .data-area{
-        padding: 80px 0 ;
-    }
-}
 /* sponsors area css */
 .sponsors-area{
     padding: 140px 0;
@@ -369,19 +300,7 @@ margin-bottom: 60px;
     width: auto;
 }
 
-@media (max-width: 991px){
-    .sponsors-area{
-        padding-top: 80px;
-        padding-bottom: 30px;
 
-    }
-
-    .single-sponsors{
-        margin-bottom: 50px;
-    }
-
-   
-}
 
 /* start app area css */
 .app-area{
@@ -400,19 +319,7 @@ margin-bottom: 60px;
     }
 
     
-    @media (max-width: 991px){
-        .app-area{
-            padding-top: 80px 0;
-            
-    
-        }
-    
-        .app-imag{
-            margin-bottom: 50px;
-        }
-    
-       
-    }
+   
 
     /* testimonial-area css */
     .testimonial-area{
@@ -430,21 +337,28 @@ margin-bottom: 60px;
         ;
         border-radius: 10px;
         padding: 55px 35px;
-        color: #212529;
+        color:#ffffff;
+        transition: .3s;
     }
+    .single-testimonial:hover{
+        background-color: #ffffff;
+        color: #212529;
+        cursor: pointer;
+    }
+
     .testimonial-text{
         border-bottom: 1px solid #212529 ;
     }
 
-    .testimonial-text img{
-       margin-bottom: 30px; 
-       height: 60px;
-       width: auto !important;
+    .testimonial-text i{
+       font-size: 60px;
+      
+       
     }
 
     .testimonial-text p{
         margin-bottom: 25px;
-        color: #ffffff;
+       
     }
     .testimonial-author{
         margin-top: 40px;
@@ -459,7 +373,7 @@ margin-bottom: 60px;
     }
     .author-text p{
         margin-bottom: 0;
-        color: #ffffff;
+        
     }
     .testimonial-area .owl-dots button{
     height: 15px;
@@ -479,11 +393,7 @@ margin-bottom: 60px;
     margin-top: 50px;
 }
 
-@media (max-width: 991px){
-    .testimonial-area{
-        padding: 80px 0;
-    }
-}
+
 
 /* trail area css */
 .trail-area{
@@ -511,32 +421,13 @@ margin-bottom: 60px;
     text-decoration: none;
 }
 
-@media (max-width: 991px){
-    .trail-area{
-        padding: 80px 0;
-    }
 
-    .trail-text h3{
-        font-size: 30px ;
-    }
-
-    .trail-text p{
-      font-size: 18px ;
-
-}
-
-.trail-img a{
-    margin: 0 ;
-    margin-right: 20px;
-    
-}
-}
 
 
 /* footer area css */
 .footer-area{
     background-color: #043873;
-    border-top: 1px solid #4F9CF9;
+    border-top: 1px solid #2e4e73;
     padding-top: 140px;
 }
 
@@ -604,30 +495,243 @@ margin-bottom: 60px;
     margin-left: 32px;
 
 }
+
+
+@media (max-width: 1399px){
+   .header-area{
+    font-size: 16px;
+   }
+}
+
+@media (max-width: 1299px){
+    .header-area{
+     font-size: 14px;
+    }
+
+    .header-area .nav-link{
+        padding: 10px 15px !important  ;
+    }
+ }
+ 
+
+
+
 @media (max-width: 991px){
+
+    /* start basic "media" css */
+    .theem-text{
+        text-align: center;
+        
+    }
+    .theem-text h3{
+        font-size: 36px ;
+    }
+
+    .theem-batton{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .theem-batton-two{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+    /* header area "media" css */
+
+    .header-area{
+        font-size: 18px;
+       }
+
+
+    .header-area .nav-link{
+        
+        padding: 16px 0 !important;
+    }
+
+    .header-area .nav-link{
+         position: relative;
+    }
+
+     .header-area .nav-link::after {
+         position: absolute;
+         right: 12px;
+         top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+    .header-area .theem-batton{
+        margin-left: 0;
+    }
+
+    .header-area .theem-batton-two{
+        margin-left: 0;
+    }
+
+    /* hero area "media" css */
+
+
+    .hero-area{
+        padding: 80px 0;
+    }
+
+    .hero-text{
+        text-align: center;
+    }
+        
+    .hero-text h3{
+        font-size: 36px;
+    }
+        
+    .hero-area .theem-batton{
+        margin-bottom: 50px;
+    }
+
+    .theem-batton{
+        margin-bottom: 25px;
+    }
+        
+     /* managment area "media" css */
+
+    .managment-area{
+        padding: 80px 0;
+    }
+
+    /* work area "media" css */
+        
+    .work-managment{
+        margin-top: 60px;
+    }
+
+    .work-area{
+        padding: 80px 0 ;
+    }
+
+
+    /* extension area "media" css */
+
+    .extension-area{
+        padding: 80px 0;
+           
+    }
+
+    /* customise area " media" css */
+
+    .customise-area{
+       
+        padding: 80px 0;
+    }
+
+    /* pricing area "media css */
+
+    .pricing-area{
+        padding: 80px;
+            
+    }
+
+    .single-pricing{
+        margin-bottom: 30px ;
+             
+    }
+
+    /* data area "media" css */
+
+
+    .data-area{
+        padding: 80px 0 ;
+    }
+
+    /* sponsors area "media" css */
+
+    .sponsors-area{
+        padding-top: 80px;
+        padding-bottom: 30px;
+    
+    }
+    
+    .single-sponsors{
+        margin-bottom: 50px;
+    }
+    
+    /* app area "media" css */
+
+
+    .app-area{
+        padding-top: 80px 0;
+            
+    
+    }
+    
+    .app-imag{
+        margin-bottom: 50px;
+    }
+
+    /* testimonial area "media css */
+
+    .testimonial-area{
+        padding: 80px 0;
+    }
+
+    /* trail area "media" css */
+
+    .trail-area{
+        padding: 80px 0;
+    }
+    
+    .trail-text h3{
+        font-size: 30px ;
+    }
+    
+    .trail-text p{
+        font-size: 18px ;
+    
+    }
+    
+    .trail-img a{
+        margin: 0 ;
+        margin-right: 20px;
+        
+    }
+
+    /* footer area "media" css */
+
     .footer-top{
         text-align: center;
     }
+
     .footer-about{
         margin-bottom: 40px;
     }
+
     .footer-link{
         margin: 40px 0;
     }
+
     .footer-contuct{
         margin-top: 40px;
     }
+
     .footer-language {
         text-align: center;
     }
+
     .footer-social{
         text-align: center;
     }
+
     .footer-social a{
         padding-top: 32px ;
         margin-left: 0 32px;
-}
-     .footer-copyright{
-        padding: 32px 0;
-     }
+    }
+
+    .footer-copyright{
+       padding: 32px 0;
+    }
+    
+
 }
